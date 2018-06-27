@@ -1,0 +1,13 @@
+<a ui-sref="newEmployee" class="btn-primary btn-lg nodecoration">Add New Employee</a>
+<table class="table employeetable">
+    <tr>
+        <td><h3>All Employees</h3></td>
+        <td></td>
+    </tr>
+    <tr ng-repeat="employee in employees">
+        <td>{{employee.firstName}} {{employee.lastName}}</td>
+        <td>
+            <a class="btn btn-primary" ui-sref="viewEmployee({id: employee.ID})">View</a>
+        </td>
+    </tr>
+</table>
