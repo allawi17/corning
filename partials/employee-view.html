@@ -4,8 +4,16 @@
         <td>{{employee.firstName}}</td>
     </tr>
     <tr>
+        <td>Middle Name Initial</td>
+        <td>{{employee.middleInitial}}</td>
+    </tr>
+    <tr>
         <td>Last Name</td>
         <td>{{employee.lastName}}</td>
+    </tr>
+    <tr>
+        <td>Nick Name</td>
+        <td>{{employee.nickName}}</td>
     </tr>
     <tr>
         <td>Email</td>
@@ -16,15 +24,15 @@
         <td>{{employee.phone}}</td>
     </tr>
     <tr>
+        <td>Cell Phone</td>
+        <td>{{employee.cellPhone}}</td>
+    </tr>
+    <tr>
         <td>Department</td>
         <td>{{employee.department}}</td>
     </tr>
     <tr>
-        <td>Salary</td>
-        <td>{{employee.salary}}</td>
-    </tr>
-    <tr>
-        <td>Paid Overtime</td>
-        <td>{{employee.overtime}}</td>
+        <td>Address</td>
+        <td>{{employee.location.city}}, {{employee.location.state}}</td>
     </tr>
 </table>
