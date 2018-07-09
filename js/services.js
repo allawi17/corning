@@ -6,6 +6,10 @@ angular.module('employeeApp.services', []).factory('Employee', function($resourc
             headers: { 
                'client_id': 'aac474269c204c25a6ffc7a73cbdaefc',
                'client_secret': 'e91b356f0ed54Eb48E272ce91916536e'
+            },
+            params: {
+                pagenumber: 0,
+                pagesize: 50
             }
         },
         get: {
